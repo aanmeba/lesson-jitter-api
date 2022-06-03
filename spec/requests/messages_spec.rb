@@ -33,6 +33,7 @@ RSpec.describe "/messages", type: :request do
     it "returns a message based on the param" do
       get "/messages/3"
       expect(response).to have_http_status(:success)
+      # response.body is just text so we can find whether it includes some text
       expect(response.body).to include("Message test 1")
     end
     
