@@ -1,6 +1,6 @@
 # Messaging App a.k.a. Jitter
 
-This app is created with Ruby on Rails along with React front end app, [lesson-jitter](https://github.com/aanmeba/lesson-jitter/tree/staging).
+This is a REST API created with Ruby on Rails along with React front end app, [lesson-jitter](https://github.com/aanmeba/lesson-jitter/tree/staging).
 
 [Here's the deployed api link](https://lesson-jitter-backend.herokuapp.com/messages)
 
