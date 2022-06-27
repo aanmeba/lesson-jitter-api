@@ -1,24 +1,17 @@
-# README
+# Messaging App a.k.a. Jitter
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This app is created with Ruby on Rails along with React front end app, [lesson-jitter](https://github.com/aanmeba/lesson-jitter/tree/staging).
 
-Things you may want to cover:
+[Here's the deployed api link](https://lesson-jitter-backend.herokuapp.com/messages)
 
-* Ruby version
+## Tech Stack
 
-* System dependencies
+- postgresql for database
+- knock gem for JWT authentication
 
-* Configuration
+## Features
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Implement CRUD actions
+- Handle user authorisation
+- List up the messages depending on the writter
+- Display the messages that the logged-in user created
