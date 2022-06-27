@@ -7,7 +7,7 @@
 
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
   allow do
-    origins 'http://localhost:3000', 'https://staging-fx2-jitterja.netlify.app'
+    origins 'https://staging-fx2-jitterja.netlify.app', 'http://localhost:3000'
 
     resource '*',
       headers: :any,
